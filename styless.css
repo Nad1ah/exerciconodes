@@ -73,3 +73,11 @@ ul {
   background-color: #2196f3;
   color: #fff;
 }
+
+.tr-head {
+  background-color: rgb(174, 161, 161);
+}
+
+#table-body {
+  background-color: rgba(87, 100, 130, 0.669);
+}

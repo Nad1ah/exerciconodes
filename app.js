@@ -28,16 +28,16 @@ for (const order of orders) {
   tableBodyNode.appendChild(tr);
 
   if (order.status === "draft") {
-    state.style.color = "blue";
+    state.style.backgroundColor = "#2196f3";
   }
   if (order.status === "processing") {
-    state.style.color = "yellow";
+    state.style.backgroundColor = "#ffc107";
   }
   if (order.status === "shipped") {
-    state.style.color = "green";
+    state.style.backgroundColor = "#4caf50";
   }
   if (order.status === "cancelled") {
-    state.style.color = "red";
+    state.style.backgroundColor = "#ff5722";
   }
   const ul = document.createElement("ul");
 
